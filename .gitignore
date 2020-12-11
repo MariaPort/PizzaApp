@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Compiled output
+FE/dist
+BE/client
+
+# Logs
+npm-debug.log*
+
+# Editors and IDEs
+.idea
+.vscode/*
+
+# Misc
+.DS_Store

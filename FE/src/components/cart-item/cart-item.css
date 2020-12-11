@@ -1,0 +1,30 @@
+.cart-item__container {
+    display: flex;
+}
+
+.cart-item__image {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.cart-item__title-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item__right-block {
+    max-width: 250px;
+    display: flex;
+}
+
+.cart-item__left-block {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.cart-item__price {
+    padding: 0 10px;
+}

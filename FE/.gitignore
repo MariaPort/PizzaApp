@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Compiled output
+dist/
+
+# Test coverage
+coverage
+
+# Logs
+npm-debug.log*
+
+# Editors and IDEs
+.idea
+.vscode/*
+
+# Misc
+.DS_Store

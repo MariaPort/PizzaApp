@@ -1,0 +1,14 @@
+.cart-page__container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.cart-page__total {
+    text-align: right;
+}
+
+.cart-page__buttons {
+    display: flex;
+    justify-content: space-between;
+}

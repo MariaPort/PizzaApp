@@ -1,0 +1,8 @@
+.order__container {
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.order__total {
+    text-align: end;
+}

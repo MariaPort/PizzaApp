@@ -1,0 +1,22 @@
+{
+  "name": "repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "cd FE && npm i && cd ../BE && npm i",
+    "build": "npm run build_FE && npm run copy_FE && npm run prod",
+    "prod": "cd BE && npm start",
+    "build_FE": "cd FE && npm run build && cd ..",
+    "copy_FE": "del-cli BE/client && copyfiles -a -u 2 \"./FE/dist/**/*\" \"BE/client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "del-cli": "^3.0.1"
+  }
+}

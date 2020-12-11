@@ -1,0 +1,6 @@
+.items-list__container {
+    padding: 0 10px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}

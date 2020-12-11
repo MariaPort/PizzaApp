@@ -23,5 +23,6 @@ run in the root folder
 ```
 npm install
 npm run build
+npm run start
 
 After that the app will be available on http://localhost:9000/

@@ -6,6 +6,7 @@
   "scripts": {
     "preinstall": "cd FE && npm i && cd ../BE && npm i",
     "build": "npm run build_FE && npm run copy_FE && npm run prod",
+    "_install": "cd FE && npm i && cd ../BE && npm i",
     "prod": "cd BE && npm start",
     "build_FE": "cd FE && npm run build && cd ..",
     "copy_FE": "del-cli BE/client && copyfiles -a -u 2 \"./FE/dist/**/*\" \"BE/client\"",

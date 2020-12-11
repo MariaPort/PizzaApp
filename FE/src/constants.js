@@ -10,7 +10,7 @@ export const modalTypes = {
     ORDER: 'ORDER',
 }
 
-export const BASE_URL = 'http://localhost:9000/api/v1';
+export const BASE_URL = `https://${window.location.host}/api/v1`;
 export const ITEMS_URL = `${BASE_URL}/products/pizza`;
 export const PREVIOUS_ORDERS_URL = `${BASE_URL}/orders/`;
 export const REGISTRATION_URL = `${BASE_URL}/user/registration`;
